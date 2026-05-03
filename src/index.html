@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaFlow — Product Launch Landing</title>
+  <meta
+    name="description"
+    content="Адаптивный лендинг для digital-продукта с продуманной структурой, сильным hero-блоком и формой захвата заявок."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <div class="container header__row">
+        <a class="logo" href="#hero">NovaFlow</a>
+
+        <button
+          class="burger"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <a href="#features">Преимущества</a>
+          <a href="#about">Как работает</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+
+        <a class="button button--small" href="#contact">Оставить заявку</a>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+          <a href="#features">Преимущества</a>
+          <a href="#about">Как работает</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="eyebrow">Digital launch platform</p>
+            <h1>Лендинг, который собирает заявки, а не просто занимает экран</h1>
+            <p class="hero__text">
+              NovaFlow помогает быстро запускать продуктовые страницы с ясной структурой,
+              сильным оффером и рабочими сценариями захвата лидов.
+            </p>
+            <div class="hero__actions">
+              <a class="button" href="#contact">Запустить проект</a>
+              <a class="button button--ghost" href="#about">Смотреть кейс</a>
+            </div>
+
+            <ul class="hero__stats">
+              <li>
+                <strong>48ч</strong>
+                <span>на первый прототип</span>
+              </li>
+              <li>
+                <strong>+32%</strong>
+                <span>рост конверсии</span>
+              </li>
+              <li>
+                <strong>100%</strong>
+                <span>адаптивная верстка</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__card">
+            <img
+              src="./assets/images/hero-dashboard.svg"
+              alt="Интерфейс дашборда с метриками конверсии"
+            >
+            <div class="hero__badge">
+              <span>Live</span>
+              <strong>12 новых заявок сегодня</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Почему это работает</p>
+            <h2>Структура, которая держит внимание пользователя</h2>
+          </div>
+
+          <div class="features__grid">
+            <article class="feature-card">
+              <h3>Четкий оффер</h3>
+              <p>Первый экран сразу объясняет, что это за продукт и зачем он нужен.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Адаптивный UI</h3>
+              <p>Сетка и типографика масштабируются под телефон, планшет и десктоп.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Рабочие CTA</h3>
+              <p>Кнопки ведут к целевым блокам, а форма валидирует поля до отправки.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Чистая структура</h3>
+              <p>Понятные классы и предсказуемые секции без мусора и случайных стилей.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about__grid">
+          <div class="about__media">
+            <img
+              src="./assets/images/about-dashboard.svg"
+              alt="Визуализация рабочего процесса команды и аналитики"
+            >
+          </div>
+          <div class="about__content">
+            <p class="eyebrow">О продукте</p>
+            <h2>Один экран ведет к действию, а не к лишним вопросам</h2>
+            <p>
+              Мы собираем лендинг вокруг целевого сценария: показать ценность, снять
+              возражения, привести пользователя к заявке. Поэтому каждый блок на странице
+              отвечает за конкретную часть воронки.
+            </p>
+            <ul class="about__list">
+              <li>Логичный header с якорной навигацией</li>
+              <li>Hero-блок с сильным заголовком и CTA</li>
+              <li>Карточки преимуществ для быстрого сканирования</li>
+              <li>Секция с изображением и поясняющим текстом</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact__grid">
+          <div class="contact__content">
+            <p class="eyebrow">Связаться</p>
+            <h2>Оставьте заявку на разбор проекта</h2>
+            <p>
+              Форма проверяет имя, email и краткое описание задачи. После успешной отправки
+              пользователь получает подтверждение на экране.
+            </p>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label>
+              <span>Имя</span>
+              <input type="text" name="name" placeholder="Как к вам обращаться" required>
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="mail@example.com" required>
+              <small class="field-error"></small>
+            </label>
+
+            <label>
+              <span>Задача</span>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Кратко опишите, что нужно сделать"
+                required
+              ></textarea>
+              <small class="field-error"></small>
+            </label>
+
+            <button class="button contact-form__submit" type="submit">Отправить заявку</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__row">
+        <p>© 2026 NovaFlow</p>
+        <a href="#hero">Наверх</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
