@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0A1020"/>
+  <circle cx="174" cy="96" r="220" fill="#69E2C2" fill-opacity="0.14"/>
+  <rect x="74" y="74" width="1052" height="482" rx="28" fill="#111A35" stroke="rgba(255,255,255,0.08)"/>
+  <text x="112" y="188" fill="#69E2C2" font-family="Arial, sans-serif" font-size="30" font-weight="700">DIGITAL LAUNCH PLATFORM</text>
+  <text x="112" y="278" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="70" font-weight="700">NovaFlow</text>
+  <text x="112" y="350" fill="#F4F7FB" font-family="Arial, sans-serif" font-size="42" font-weight="700">Landing Page</text>
+  <text x="112" y="420" fill="#9CA9C8" font-family="Arial, sans-serif" font-size="28">Adaptive landing page with CTA, feature grid, form validation</text>
+  <text x="112" y="460" fill="#9CA9C8" font-family="Arial, sans-serif" font-size="28">and GitHub Pages deployment.</text>
+  <rect x="760" y="150" width="280" height="120" rx="22" fill="#16244A"/>
+  <rect x="760" y="304" width="280" height="120" rx="22" fill="#16244A"/>
+  <rect x="708" y="202" width="16" height="170" rx="8" fill="#69E2C2"/>
+  <rect x="1080" y="202" width="16" height="170" rx="8" fill="#69E2C2"/>
+  <path d="M794 225H924" stroke="#69E2C2" stroke-width="14" stroke-linecap="round"/>
+  <path d="M794 255H992" stroke="#4D5E82" stroke-width="10" stroke-linecap="round"/>
+  <path d="M794 379H974" stroke="#69E2C2" stroke-width="14" stroke-linecap="round"/>
+  <path d="M794 409H948" stroke="#4D5E82" stroke-width="10" stroke-linecap="round"/>
+</svg>
